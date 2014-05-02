@@ -1,0 +1,58 @@
+{
+  "extName": {
+    "message" : "Tax Rate Calculator",
+    "description" : "Extension name"
+  },
+  "extDescription": {
+    "message": "Calculates the price including or excluding taxes from a tax rate",
+    "decription" : "Extension description"
+  },
+  "msgErrorPrice": {
+    "message": "Price value is not a valid number",
+    "decription" : "Error message when price value is not valid"
+  },
+  "msgErrorRate": {
+    "message": "Tax rate value is not a valid number",
+    "decription" : "Error message when rate value is not valid"
+  },
+  "calculationType": {
+    "message": "Type of calculation",
+    "decription" : "Select label for choosing type of calculation"
+  },
+  "calculationIncluding": {
+    "message": "Including Tax from Excluding tax price",
+    "decription" : "Option label for type calculation => including Tax"
+  },
+  "calculationExcluding": {
+    "message": "Excluding Tax from Including tax price",
+    "decription" : "Option label for type calculation => Excluding Tax"
+  },
+  "roundLabel": {
+    "message": "Round the result",
+    "decription" : "Label for the round checkbox"
+  },
+  "priceLabel": {
+    "message": "Price",
+    "decription" : "Label for filling the price value"
+  },
+  "rateLabel": {
+    "message": "Tax rate",
+    "decription" : "Label for filling the tax rate value"
+  },
+  "exclSuffix": {
+    "message": "Excl. tax amount",
+    "decription" : "Suffix text for the result"
+  },
+  "inclSuffix": {
+    "message": "Incl. tax amount",
+    "decription" : "Suffix text for the result"
+  },
+  "vatSuffix": {
+    "message": "VAT amount",
+    "decription" : "Suffix text for the result"
+  },
+  "calculateText": {
+    "message": "Calculate",
+    "decription" : "Text button for submit"
+  }
+}

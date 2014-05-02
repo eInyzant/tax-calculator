@@ -1,0 +1,58 @@
+{
+  "extName": {
+    "message" : "Calculateur de TVA",
+    "description" : "Extension name"
+  },
+  "extDescription": {
+    "message": "Permet de calculer le prix HT et TTC à partir d'un pourcentage de TVA",
+    "decription" : "Extension description"
+  },
+  "msgErrorPrice": {
+    "message": "Le prix renseigné n'est pas un nombre valide",
+    "decription" : "Message d'erreur si le prix est mal renseigné"
+  },
+  "msgErrorRate": {
+    "message": "Le pourcentage de taxe renseigné n'est pas un nombre valide",
+    "decription" : "Message d'erreur si le pourcentage de taxe est mal renseigné"
+  },
+  "calculationType": {
+    "message": "Type de calcul",
+    "decription" : "Label pour le select permettant de choisir le type de calcul à effectuer"
+  },
+  "calculationIncluding": {
+    "message": "Montant TTC à partir du prix HT",
+    "decription" : "Label de l'option pour le type de calcul => montant TTC"
+  },
+  "calculationExcluding": {
+    "message": "Montant HT à partir du prix TTC",
+    "decription" : "Label de l'option pour le type de calcul => montant HT"
+  },
+  "roundLabel": {
+    "message": "Arrondir le résultat",
+    "decription" : "Label pour la case à cocher permettant d'arrondir le résultat"
+  },
+  "priceLabel": {
+    "message": "Prix",
+    "decription" : "Label pour renseigner le prix"
+  },
+  "rateLabel": {
+    "message": "Pourcentage de taxe",
+    "decription" : "Label pour renseigner le pourcentage de taxe"
+  },
+  "exclSuffix": {
+    "message": "Montant HT",
+    "decription" : "Suffixe pour le resultat"
+  },
+  "inclSuffix": {
+    "message": "Montant TTC",
+    "decription" : "Suffixe pour le resultat"
+  },
+  "vatSuffix": {
+    "message": "Montant TVA",
+    "decription" : "Suffixe pour le resultat"
+  },
+  "calculateText": {
+    "message": "Calculer",
+    "decription" : "Texte du bouton pour valider le formulaire"
+  }
+}

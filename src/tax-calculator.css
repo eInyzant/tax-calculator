@@ -1,0 +1,78 @@
+* { box-sizing: border-box; }
+body { font-family: 'Lucida Grande', sans-serif; letter-spacing:-1px; }
+section { width:460px; }
+h1 { margin:0; width:100%; }
+label { width:150px; display:inline-block; }
+span.suffix {}
+select {
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #FFF;
+    background-image: none;
+    border: 1px solid #CCC;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+input[type="text"] {
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #FFF;
+    background-image: none;
+    border: 1px solid #CCC;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.btn:hover {
+    color: #FFF;
+    background-color: #3276B1;
+    border-color: #285E8E;
+}
+.btn {
+    margin-left:156px;
+    color: #FFF;
+    background-color: #428BCA;
+    border-color: #357EBD;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid rgba(0, 0, 0, 0);
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+      -webkit-user-select: none;
+}
+.elt-form { height:40px; }
+#result { display:none; width:100%; }
+#msg { color:red; width:100%; margin:7px 0; font-weight:bold; }
+#result div {
+    margin-top:10px;
+}
+.result-txt {
+    display:inline-block;
+    width : 50%;
+    border: 1px solid #D3D3D3;
+    padding:8px;
+    border-radius: 5px;
+    box-shadow:2px 3px 8px -4px;
+}
+.a-left { text-align:left; }
+.a-center { text-align:center; }
+.a-right { text-align:right; }

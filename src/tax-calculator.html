@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title id="pageTitle">VAT Calculator</title>
+  <link href="/tax-calculator.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <section>
+    <h1 id="sectionTitle" class="a-center">Tax rate calculator</h1>
+    <p id="msg">&nbsp;</p>
+    <form action="#" id="taxForm">
+      <div class="elt-form">
+        <label for="calculation_type" id="calculation_type_label">Type of calculation</label>
+        <select id="calculation_type">
+          <option value="excluding" id="calculation_type_excluding">Excluding Tax from Including tax price</option>
+          <option value="including" id="calculation_type_including">Including Tax from Excluding tax price</option>
+        </select>
+      </div>
+      <div class="elt-form">
+        <label for="round" id="roundLabel">Round the result</label>
+        <input type="checkbox" id="round" checked="checked" value="1" />
+      </div>
+      <div class="elt-form">
+        <label for="price" id="priceLabel">Price</label>
+        <input type="text" id="price" value="0"/>
+      </div>
+      <div class="elt-form">
+        <label for="rate" id="rateLabel">Tax rate</label>
+        <input type="text" id="rate" value="20" /><span class="suffix">%</span>
+      </div>
+      <div class="elt-form">
+        <input type="submit" class="btn" id="calculate" value="Calculate" />
+      </div>
+    </form>
+    <div id="result" class="a-center">
+      <div class="a-left"><div class="result-txt a-right" id="excluding_price"></div>&nbsp;<span id="suffix-excl">Excl.</span></div>
+      <div class="a-center">+</div>
+      <div class="a-left"><div class="result-txt a-right" id="tax_amount"></div>&nbsp;<span id="suffix-vat">VAT</span></div>
+      <div class="a-center">=</div>
+      <div class="a-left"><div class="result-txt a-right" id="including_price"></div>&nbsp;<span id="suffix-incl">Incl.</span></div>
+    </div>
+  </section>
+  <script type="text/javascript" src="tax-calculator.js"></script>
+</body>
+</html>
