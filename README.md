@@ -1,4 +1,4 @@
-# Tax Calculator
+# ![alt text](src/icon48.png "logo") Tax Calculator
 
 Tax Calculator is a Chrome Extension. It allows you to calculates the price including or excluding taxes from a tax rate :
 
